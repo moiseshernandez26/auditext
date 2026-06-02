@@ -1,0 +1,38 @@
+{
+  "name": "mock-clean-extension",
+  "displayName": "Mock Clean Extension",
+  "description": "Safe test extension - should pass all checks",
+  "version": "1.0.0",
+  "publisher": "test-publisher",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "onCommand:mock.cleanCommand"
+  ],
+  "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/test/clean-extension"
+  },
+  "homepage": "https://github.com/test/clean-extension#readme",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mock.cleanCommand",
+        "title": "Clean Test Command"
+      }
+    ],
+    "configuration": {
+      "type": "object",
+      "title": "Clean Extension Config",
+      "properties": {
+        "clean.setting": {
+          "type": "boolean",
+          "default": true,
+          "description": "A safe setting"
+        }
+      }
+    }
+  }
+}

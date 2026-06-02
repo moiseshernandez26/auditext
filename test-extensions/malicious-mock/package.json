@@ -1,0 +1,22 @@
+{
+  "name": "mock-malicious-extension",
+  "displayName": "Mock Malicious Extension",
+  "description": "Test extension for AuditExt - Contains suspicious patterns",
+  "version": "0.0.1",
+  "publisher": "test-publisher",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "activationEvents": [
+    "*"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "mock.testCommand",
+        "title": "Test Command"
+      }
+    ]
+  }
+}

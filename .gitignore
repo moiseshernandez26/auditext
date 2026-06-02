@@ -1,0 +1,15 @@
+node_modules/
+out/
+*.vsix
+.DS_Store
+.vscode-test/
+.idea/
+*.log
+*.tsbuildinfo
+.env
+.env.local
+.env.*.local
+.vscode/*
+!.vscode/launch.json
+!.vscode/tasks.json
+
