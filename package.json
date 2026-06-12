@@ -4,6 +4,12 @@
   "description": "Audit installed VS Code extensions for integrity and corruption",
   "version": "0.1.0",
   "license": "MIT",
+  "publisher": "S0nder",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moiseshernandez26/auditext"
+  },
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.80.0"
   },

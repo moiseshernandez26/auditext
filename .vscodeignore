@@ -7,3 +7,7 @@ src/**
 *.map
 *.ts
 tsconfig.json
+AGENTS.md
+opencode.jsonc
+.opencode/**
+test-extensions/**

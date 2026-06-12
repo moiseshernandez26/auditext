@@ -92,7 +92,7 @@ Built-in detection for:
 
 ### From Source
 ```bash
-git clone https://github.com/your-username/AuditExt.git
+git clone https://github.com/moiseshernandez26/auditext
 cd AuditExt
 npm install
 npm run esbuild
@@ -104,7 +104,7 @@ Then in VS Code:
 - Run one of the audit commands
 
 ### From VS Code Marketplace
-(Coming soon - currently available only from source)
+[Download on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=S0nder.auditext)
 
 ---
 
