@@ -2,6 +2,10 @@
 
 A comprehensive security and integrity auditing tool for VS Code extensions. AuditExt provides deep visibility into installed extensions, identifying security risks, corruption issues, and suspicious network behavior.
 
+## Marketplace
+
+[Download on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=S0nder.auditext)
+
 ## Features
 
 ### 📋 Extension Audit (`auditext.auditExtensions`)
@@ -102,9 +106,6 @@ Then in VS Code:
 - Press `F5` to launch the Extension Host with AuditExt loaded
 - Open Command Palette (`Ctrl+Shift+P` / `Cmd+Shift+P`)
 - Run one of the audit commands
-
-### From VS Code Marketplace
-[Download on VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=S0nder.auditext)
 
 ---
 
